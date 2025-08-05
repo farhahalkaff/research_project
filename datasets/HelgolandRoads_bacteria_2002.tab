@@ -1,0 +1,70 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 2002 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743184, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 2002-01-03T08:10:00 * DATE/TIME END: 2002-12-30T12:55:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads2002 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 2002-01-01T00:00:00 * DATE/TIME END: 2002-12-31T23:59:59 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Bacteria [#/ml] (Bact) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Flagellates [#/l] (Flag) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Viruses/phages [#/ml] (Viruses/phages) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	203 data points
+*/
+Date/Time	Depth water [m]	Temp [°C]	Bact [#/ml]	Flag [#/l]	Viruses/phages [#/ml]
+2002-01-03T08:10	1	4.6	479695	959	803755
+2002-01-08T07:40	1	4.9	267918	266	688629
+2002-01-16T08:10	1	4.6	266497	533	660913
+2002-01-22T07:40	1	5.7	277157	799	481827
+2002-01-30T08:10	1	5.4	312690	533	447715
+2002-02-05T07:45	1	5.6	227411	266	607614
+2002-02-12T08:00	1	5.9	380913	1066	539390
+2002-02-19T07:08	1	5.8	290660	799	609746
+2002-02-26T08:33	1	5.3	396548	799	899694
+2002-03-05T07:35	1	5.4	318375	799	669441
+2002-03-12T07:40	1	5.9	189035	533	754720
+2002-03-19T07:46	1	6.4	275025	266	741928
+2002-03-26T08:00	1	6.3	260101	766	814415
+2002-04-09T07:10	1	7.2	496751	1599	893298
+2002-04-16T05:50	1	7.4	324771	799	993501
+2002-04-23T06:35	1	8.1	200406	799	912486
+2002-04-30T06:37	1	8.0	429949	1066	893298
+2002-05-07T07:05	1	9.1	402233	799	1328222
+2002-05-14T07:15	1	9.7	423553	533	1392181
+2002-05-22T06:15	1	10.9	454111	1199	1234415
+2002-05-29T08:15	1	11.3	459441	1199	1104364
+2002-06-02T09:00	1	15.0	529795	1999	1125684
+2002-06-04T05:45	1	12.4	544720	1999	1251471
+2002-06-11T05:40	1	13.2	579304	1199	1274922
+2002-06-18T05:25	1	14.8	564974	1999	1842028
+2002-06-25T05:25	1	14.1	616141	1999	1633095
+2002-07-09T06:00	1	16.4	1010557	2398	5129537
+2002-07-15T05:35	1	16.5	877309	2398	2841926
+2002-07-23T05:35	1	16.7	714212	2798	921014
+2002-08-06T07:45	1	18.1	660913	1599	535126
+2002-08-14T05:15	1	18.5	641725	1599	366700
+2002-08-20T05:31	1	19.1	498883	799	1029745
+2002-08-27T05:15	1	19.3	461573	1599	961522
+2002-09-03T06:10	1	19.4	538324	1599	831471
+2002-09-10T05:40	1	18.5	657715	1599	641725
+2002-09-17T04:35	1	18.1	988527	2398	441319
+2002-09-24T05:25	1	17.0	518070	1066	776040
+2002-10-01T05:30	1	17.1	354974	1599	765380
+2002-10-08T05:47	1	15.1	245177	1199	607614
+2002-10-15T05:55	1	13.5	356751	1086	287817
+2002-10-22T07:15	1	13.6	385888	799	790964
+2002-10-30T07:55	1	11.1	342538	1332	607614
+2002-11-05T05:15	1	10.7	329746	1066	556446
+2002-11-12T08:30	1	10.7	266497	1599	556446
+2002-11-19T08:20	1	10.3	241624	1066	466903
+2002-11-26T08:00	1	9.8	203249	1332	415736
+2002-12-03T08:05	1	9.3	212771	640	279289
+2002-12-10T08:55	1	6.4	132183	640	261167
+2002-12-17T08:30	1	6.2	219594	640	361370
+2002-12-27T09:15	1	6.1	130051	799	278223
+2002-12-30T12:55	1		188040	1119	222792

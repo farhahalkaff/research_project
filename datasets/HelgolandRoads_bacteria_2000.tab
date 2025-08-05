@@ -1,0 +1,72 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 2000 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743182, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 2000-01-05T08:20:00 * DATE/TIME END: 2000-12-12T08:15:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads2000 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 2000-01-01T00:00:00 * DATE/TIME END: 2000-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Bacteria [#/ml] (Bact) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Flagellates [#/l] (Flag) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Viruses/phages [#/ml] (Viruses/phages) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: full medium 2216E
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: 1/10 2216E
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: full medium 2216E
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: 1/10 2216E
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	228 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Bact [#/ml] (Acridine Orange Direct Counti...)	Flag [#/l] (Acridine Orange Direct Counti...)	Viruses/phages [#/ml] (Acridine Orange Direct Counti...)	Bact mar culti [#/ml] (full medium 2216E, Surface in...)	Bact mar culti [#/ml] (1/10 2216E, Surface inoculation)	Bact fw culti [#/ml] (full medium 2216E, Surface in...)	Bact fw culti [#/ml] (1/10 2216E, Surface inoculation)
+2000-01-05T08:20	1		363185	597		474	609	36	116
+2000-01-11T07:45	1		187562	398		322	617	80	54
+2000-01-20T08:00	1		130945	159	736319	581	474	26	89
+2000-01-26T08:20	1		207761	159	411941	876	1743	89	54
+2000-02-08T08:55	1		210548	159	692538	724	2029	45	89
+2000-02-16T08:00	1		165572	318	499503	903	152	134	232
+2000-02-23T07:30	1		192637	637	380100	858	1653	9	71
+2000-03-01T07:50	1		287762	637	724379	733	992	9	9
+2000-03-07T08:00	1		245274	199	807961	1171	2172	36	80
+2000-03-15T08:10	1		372140	478	553235	1189	2258	54	125
+2000-03-22T07:05	1		309453	398	768160	1171	2222	63	143
+2000-03-28T06:45	1		381095	769	953235	1939	2341	286	2163
+2000-04-05T09:00	1		365175	1194	694528	1091	1376	71	71
+2000-04-12T06:05	1		271642	1592	993036	2949	4659	80	206
+2000-04-19T07:15	1		261692	1990	762190	706	769	36	9
+2000-04-25T06:10	1		452737	796	706469	599	1019	18	54
+2000-05-02T06:10	1		555225	1990	905474				
+2000-05-10T05:45	1		686568	2388	2869656				
+2000-05-17T06:15	1		1406967	2388	2443784				
+2000-05-24T05:50	1		1317415	5572	2495526				
+2000-05-30T06:00	1		1086569	3184	2794034				
+2000-06-08T05:40	1		883583	1592	1536320				
+2000-06-13T06:05	1		1693535	3980	2845775				
+2000-06-21T05:45	1		514873	2798	2773702				
+2000-06-28T06:25	1		751522	799	1336750				
+2000-07-04T05:50	1		790964	3198	2151165				
+2000-07-11T06:25	1		829339	1599	2392079				
+2000-07-18T05:40	1		608680	799	3140403				
+2000-07-25T06:00	1		975380	1599	1569135				
+2000-08-01T07:00	1		951928	1599	2033906				
+2000-08-08T07:00	1	16.6	947664	2798	6338369				
+2000-08-15T05:55	1	17.3	353908	0	4739986				
+2000-08-22T07:10	1	17.6	507411	799	1816445				
+2000-08-29T05:40	1	17.4	544720	1199	2795022				
+2000-09-05T05:45	1	16.6	655938	799	2545581				
+2000-09-12T06:35	1	16.9	963654	799	1628831				
+2000-09-19T06:30	1	16.4	385888	400	3560402				
+2000-09-26T06:45	1	15.7	425329	1199	1532892				
+2000-10-05T07:15	1	15.9	368832	400	1407105				
+2000-10-10T07:00	1	14.9	243756	533	1123552				
+2000-10-17T07:25	1	14.7	292081	266	984975				
+2000-10-24T07:20	1	14.0	391857	799	425329				
+2000-11-02T08:00	1	12.0	361157	480	238781				
+2000-11-07T07:50	1	10.4	428527	480	401878				
+2000-11-14T07:00	1	10.5	565240	600	591268				
+2000-11-21T08:00	1	9.8	286111	480	950862				
+2000-11-28T08:05	1	9.1	262660	320	1102232				
+2000-12-05T07:35	1	8.9	169279	640	633197				
+2000-12-12T08:15	1	9.3	274172	480	1102232				

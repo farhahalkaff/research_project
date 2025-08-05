@@ -1,0 +1,80 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1989 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743171, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1989-01-02T08:35:00 * DATE/TIME END: 1989-12-27T07:45:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads1989 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 1989-01-01T00:00:00 * DATE/TIME END: 1989-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Salinity (Sal) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Salinometer, inductive * COMMENT: PSU
+	Bacteria [#/ml] (Bact) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Bacteria [#/ml] (Bact) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange) * COMMENT: Neuston
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts * COMMENT: Neuston
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts * COMMENT: Neuston
+	Yeasts [#/l] (Yeasts) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, oil degrading [#/ml] (Bact oil deg) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Most probable number method (MPN), based on serial dilutions (URI: https://en.wikipedia.org/wiki/Most_probable_number)
+	Oxygen [µmol/l] (O2) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91)
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; with nutrient addition
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; without nutrient addition
+	Surface tension [dyn/cm**2] (Surf tens) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * COMMENT: Neuston
+	Surface tension [dyn/cm**2] (Surf tens) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	731 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Sal (PSU, Salinometer, inductive)	Bact [#/ml] (Acridine Orange Direct Counti...)	Bact [#/ml] (Neuston, Acridine Orange Dire...)	Bact mar culti [#/ml] (Plate counts)	Bact fw culti [#/ml] (Plate counts)	Bact mar culti [#/ml] (Neuston, Plate counts)	Bact fw culti [#/ml] (Neuston, Plate counts)	Yeasts [#/l] (Plate counts)	Bact oil deg [#/ml] (Most probable number method (...)	O2 [µmol/l] (Oxygen, Winkler (Culberson, 1...)	BOD [µmol/l] (14 days; with nutrient additi...)	BOD [µmol/l] (14 days; without nutrient add...)	Surf tens [dyn/cm**2] (Neuston)	Surf tens [dyn/cm**2]
+1989-01-02T08:35	1	5.9	32.13	176000	85000	492	84	5460	2436	35	43	331.2	89.3	183.11	13.70	12.60
+1989-01-04T08:30	1	6.2	31.49	187000	105000	4058	290	680	244	7	75	306.2	62.5	317.09	14.60	4.40
+1989-01-11T08:15	1	6.4	32.20	718000	238000	320	110	1872	1364	7	43	300.0	102.7	379.61	18.00	8.20
+1989-01-18T08:25	1	5.8	31.49	201000	148000	1382	392	2342	1424	7	21	362.5	147.4	272.43	25.50	19.60
+1989-01-25T08:05	1	5.8	32.16	60500	62700	428	92			19	8	359.4	138.4	343.88	18.40	14.80
+1989-02-08T07:35	1	6.1	32.30	51500	848000	314	64	1700	1100	1	120	334.4	138.4	245.63	19.70	9.10
+1989-02-15T08:15	1	5.6	31.39	68200	131000	2058	504	4360	1275	8	12	321.9	125.0	330.48	10.00	14.80
+1989-02-22T08:25	1	5.5	31.57	56000	185000	1146	170	1620	870	5	23	296.9	129.5	312.62	20.70	19.50
+1989-03-01T08:20	1	5.6	32.40	123000	121000	322	32	1312	1006	0	9	303.1	84.9	160.78	14.30	16.10
+1989-03-08T08:35	1	5.9	32.41	51700	150000	506	98	874	372	80	23	340.6	125.0	174.17	8.90	12.20
+1989-03-15T07:30	1	6.0	32.12	93300	105000	414	84	2166	1512	9	43	246.9	44.7	93.79	21.80	16.30
+1989-03-22T07:40	1	6.0	32.62	113000	149000	171	47	218	386	5	15	278.1	107.2	138.45	19.70	8.40
+1989-03-29T06:20	1	6.3	32.42	107000	173000	1120	93	726	192	5	9	284.4	75.9	111.65	16.90	4.60
+1989-04-06T06:40	1	6.1	32.25	40600	111000	1252	168	1506	1196	3	8	278.1	53.6	71.46	21.90	17.50
+1989-04-19T06:10	1	7.1	32.71	173000	89200	500	44	1524	1234	17	4	259.4	67.0	138.45	17.00	7.70
+1989-05-03T06:35	1	8.4	29.87	413000	295000	2044	212	1558	1010	5	2	306.2	151.8	263.49	6.50	18.30
+1989-05-10T05:50	1	9.0	31.18	1260000	1290000	1556	372	872	134	2	4	340.6	339.4	281.36	16.80	18.00
+1989-05-17T06:25	1	10.5	31.18	527000	503000	1206	26	514	146	3	0	334.4	245.6	196.50	27.90	11.40
+1989-05-24T06:35	1	9.8	33.10	122000	729000	1356	40			10	2	271.9	93.8	178.64	11.10	8.80
+1989-05-31T07:20	1	10.3	32.43	437000	278000	1310	70	1984	874	2	9	221.9		303.69	19.60	12.40
+1989-06-07T06:40	1	12.4	31.14	306000	360000	1966	198	3350	450	20	23	156.2	8.9	0.00	16.70	3.10
+1989-06-14T06:35	1	13.5	31.38	1160000	1350000	12800	164	1374	654	4	21	259.4	120.6	294.76	29.30	5.40
+1989-06-21T06:40	1	15.5	31.31	432000	888000	270	70	1028	270	218	9	237.5	125.0	129.51	20.20	9.80
+1989-06-28T06:45	1	14.8	32.03	1260000	956000	2522	16	2954	1152	29	2100	259.4	129.5	330.48	19.00	6.50
+1989-07-05T06:05	1	16.1	32.28	2140000	1190000	1442	68	1146	332	0	15	262.5	156.3	120.58	13.70	4.80
+1989-07-12T06:05	1	16.1	32.64	824000	659000	976	70	390	222	6	93	228.1	71.5	31.26	20.50	11.30
+1989-07-19T06:05	1	15.9	32.15	852000	595000	1146	112	1854	280	4	93	209.4	98.3	71.46	5.70	3.30
+1989-07-26T06:05	1	17.0	31.88	946000	539000	324	52	1084	248	0	150	243.8	120.6	98.25	8.70	1.30
+1989-08-02T07:05	1	15.4	32.34	959000	1000000					20		240.6	111.6	80.39	7.60	3.10
+1989-08-09T06:50	1	16.1	32.03	565000	1100000	94	48	4360	1062	0	21	234.4	93.8	66.99	11.90	5.80
+1989-08-16T06:50	1	17.1	32.20	602000	822000	272	128	9000	3254	191	93	237.5	125.0	102.72	22.80	7.50
+1989-08-23T06:55	1	17.2	32.40	601000	546000	116		1697	1004	4	4	228.1	120.6	129.51	23.60	14.20
+1989-08-30T06:40	1	16.5	31.96	507000	1030000	150	127	5940	1734	9	2	259.4	169.7	151.84	7.40	8.10
+1989-09-06T07:20	1	16.7	32.21	338000	1110000	342	40	7620	2638	2	2	240.6	62.5	66.99	17.70	6.50
+1989-09-13T06:10	1	16.2	32.09	567000	445000	122	18	504	130	1	9	246.9	8.9		24.70	14.60
+1989-09-20T07:05	1	16.5	32.37	254000	389000	444	123	1119	784	139	2	234.4	84.9	75.92	4.20	17.00
+1989-09-27T08:05	1	16.3	32.61	425000	260000	128	12	754	130	82	23	253.1	93.8	80.39	16.50	9.60
+1989-10-04T08:00	1	15.4	32.19	271000	255000	642	40	878	826	14	9	281.2	129.5	120.58	13.50	11.80
+1989-10-11T07:35	1	14.2	32.03	725000	425000	1218	395	432	176	42	21	240.6	98.3	58.06	13.60	10.60
+1989-10-18T07:55	1	13.6	31.86	437000	545000	560	44	5320	1686	8	23	246.9	98.3	80.39	15.70	23.00
+1989-10-25T08:10	1	13.7	32.00	522000	608000	420	38	934	974	29	4	234.4	102.7	89.32	14.10	15.80
+1989-11-03T07:35	1	13.4	32.28	621000	548000	322	54	5700	2826	34	12	225.0	44.7	183.11	19.10	9.80
+1989-11-08T08:00	1	12.1	32.57	334000	568000	308	54	1282	566	12	120	253.1	49.1	116.12	14.60	32.10
+1989-11-15T07:40	1	12.1	32.99	478000	107000	304	100	950	1022	81	9	275.0	84.9	281.36	14.40	16.10
+1989-11-23T07:55	1	12.0	32.28	580000	361000	160	50	2032	1488	8	230	281.2	223.3	285.82	8.40	11.80
+1989-11-29T08:05	1	9.2	32.97	310000	335000					27		284.4	183.1	214.37	11.90	2.40
+1989-12-06T07:55	1	9.1	33.03	297000	423000	178	75	731	556	4	230	265.6	80.4	205.44	21.40	12.40
+1989-12-13T08:00	1	8.2	32.91	355000	105000	65	19	4160	2524	3	930	293.8	44.7	116.12	26.50	9.70
+1989-12-20T07:45	1	7.6	32.89	164000	349000	146	42	1652	1234	11	23	371.9			21.30	3.60
+1989-12-27T07:45	1	7.6	33.14	46600	165000	63	17	1798	1140	5	230	243.8	44.7	250.10	5.20	10.80

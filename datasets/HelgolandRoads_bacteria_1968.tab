@@ -1,0 +1,160 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1968 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743151, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1968-01-08T10:10:00 * DATE/TIME END: 1968-12-30T09:50:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads1968 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 1968-01-01T00:00:00 * DATE/TIME END: 1968-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Salinity (Sal) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Salinometer, inductive * COMMENT: PSU
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Yeasts [#/l] (Yeasts) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Oxygen [µmol/l] (O2) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91)
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; with nutrient addition
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; without nutrient addition
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	659 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Sal (PSU, Salinometer, inductive)	Bact mar culti [#/ml] (Plate counts)	Bact fw culti [#/ml] (Plate counts)	Yeasts [#/l] (Plate counts)	O2 [µmol/l] (Oxygen, Winkler (Culberson, 1...)	BOD [µmol/l] (14 days; with nutrient additi...)	BOD [µmol/l] (14 days; without nutrient add...)
+1968-01-08T10:10	1	3.9	33.30	1010	106	8	320.6	88.9	
+1968-01-10T10:25	1	3.2	30.80	2890	2270				
+1968-01-12T09:40	1	1.8	30.20	2420	1520				
+1968-01-15T09:40	1	2.1	31.70	1420	327	37	372.8	132.6	
+1968-01-17T10:00	1	2.8	30.90	2760	1070				
+1968-01-19T10:20	1	3.6	32.20	1790	269				
+1968-01-22T09:20	1	3.5	32.10	1860	260	13	364.4	146.5	
+1968-01-24T09:50	1	3.4	32.10	1990	293				
+1968-01-29T10:00	1	3.2	31.50	2020	143		329.1	117.9	
+1968-01-31T09:45	1	3.3	31.30	2380	226				
+1968-02-02T10:05	1	3.2	31.20	2180	284				
+1968-02-05T08:55	1	2.9	30.90	7700	2230	44	312.5	134.0	
+1968-02-07T09:30	1	3.2	32.00	1500	253				
+1968-02-09T09:20	1	3.3	32.30	1300	149				
+1968-02-12T09:30	1	3.2	31.10	2580	3110	32	327.8	130.9	
+1968-02-14T09:50	1	3.5	32.80	1670	282				
+1968-02-16T10:00	1	3.3	33.00	1360	280				
+1968-02-19T09:40	1	3.2	32.60	1520	910		326.6	88.4	
+1968-02-21T09:25	1	2.9	31.90	1640	263	28			
+1968-02-23T09:20	1	2.4	30.00	3590	2430				
+1968-02-26T09:35	1	2.2	30.00	2500	2430	49			
+1968-02-28T09:45	1	2.8	30.80	1680	1270				
+1968-03-01T09:45	1	2.6	30.60	2100	1340				
+1968-03-04T09:25	1	3.3	33.00	840	240	28	316.2	86.6	
+1968-03-08T09:05	1	2.8	30.00	1770	1240				
+1968-03-11T08:40	1	2.6	31.10	1550	790	54	334.7	116.1	
+1968-03-13T09:00	1	2.9	31.50	1150	145				
+1968-03-15T09:15	1	3.0	31.60	1020	279				
+1968-03-20T10:00	1	3.4	30.50	1770	140				
+1968-03-22T09:15	1	3.4	31.20	1050	570				
+1968-03-25T08:40	1	3.7	31.40	1000	208	26	326.2		
+1968-03-27T09:10	1	4.0	31.60	1050	111				
+1968-03-29T09:05	1	4.2	31.70	1430	188				
+1968-04-01T08:55	1	4.4	32.20	760	188	40	335.6	120.6	
+1968-04-03T10:05	1	4.2	32.10	301	150				
+1968-04-05T09:05	1	4.4	31.90	1290	183				
+1968-04-08T09:05	1	4.5	29.60	1950	362	48	337.2	116.6	
+1968-04-10T08:50	1	5.2	29.80	1750	263				
+1968-04-17T08:50	1	5.8	30.80	1300	198				
+1968-04-19T08:55	1	6.4	31.40	940	250				
+1968-04-22T08:45	1	7.5	30.30	1730	136	12	305.0	94.2	
+1968-04-24T08:50	1	7.4	31.90	314	56				
+1968-04-26T09:05	1	8.1	30.20	285	86				
+1968-04-29T08:50	1	8.5	31.60	190	31	5	359.4	133.5	
+1968-05-03T08:55	1	7.2	32.30	1000	95				
+1968-05-06T08:30	1	7.3	32.60	1020	30		322.8	83.5	
+1968-05-08T09:00	1	8.1	31.50	950	99				
+1968-05-10T08:50	1	8.0	32.40	1320	110				
+1968-05-13T09:10	1	7.5	32.50	1120	55	14	315.6	89.3	
+1968-05-15T09:20	1	7.8	32.70	1590	179				
+1968-05-17T09:05	1	8.0	32.10	530	54				
+1968-05-20T08:55	1	8.8	31.30	750	88	12	294.1	110.8	
+1968-05-22T08:50	1	9.9	30.30	1170	118				
+1968-05-24T09:00	1	9.8	31.10	880	94				
+1968-05-27T09:10	1	9.7	32.20	311	67	10	287.8	84.0	
+1968-05-29T09:05	1	10.4	32.20	182	42				
+1968-05-31T08:45	1	11.0	31.20	257	55				
+1968-06-05T09:10	1	11.1	31.50	247	33				
+1968-06-07T08:50	1	11.6	30.70	257	69				
+1968-06-10T08:55	1	11.1	31.90	167	47		273.1	84.0	
+1968-06-12T08:45	1	12.5	31.00	148	9				
+1968-06-19T08:20	1	13.7	30.80	202	33	37			
+1968-06-21T08:45	1	13.5	31.40	377	53				
+1968-06-24T08:50	1	13.0	32.20	123	18		263.4	131.7	
+1968-06-26T08:55	1	13.6	32.30	174	34				
+1968-06-28T09:40	1	13.7	32.40	245	54				
+1968-07-01T09:00	1	14.9	31.90	550	21	4	265.6	69.7	113.88
+1968-07-03T09:10	1	14.9	32.40	760	97				
+1968-07-05T08:55	1	15.6	31.90	194	64				
+1968-07-08T09:00	1	14.6	32.40	500	55				
+1968-07-10T09:15	1	15.2	31.80	250	50				
+1968-07-12T08:55	1	14.1	32.30	1130					
+1968-07-15T09:35	1	15.9	31.20	91	9		263.4	94.2	91.55
+1968-07-17T09:20	1	15.7	31.00	1130	77				
+1968-07-24T08:40	1	16.2	30.90	317	15				
+1968-07-29T09:15	1	17.5	29.90	1270	44	18			
+1968-07-31T08:50	1	17.6	30.10	191	18				
+1968-08-02T09:15	1	17.7	30.20	950	82				
+1968-08-05T09:05	1	17.7	30.20	2330	98		265.9	130.0	146.93
+1968-08-07T08:40	1	17.5	30.70	1280	15				
+1968-08-09T09:00	1	17.1	31.10	1830	43				
+1968-08-12T09:00	1	16.0	31.80	1720	110		226.6	92.0	196.06
+1968-08-14T09:10	1	16.3	31.40	1430	81				
+1968-08-16T08:40	1	15.9	31.80	232	37				
+1968-08-19T08:45	1	15.8	31.70	1390	40		248.8	355.5	311.28
+1968-08-21T08:45	1	16.1	31.60	860	7				
+1968-08-23T09:00	1	16.6	31.50	650	88				
+1968-08-26T09:00	1	16.6	31.50	310	73		280.9	186.7	204.54
+1968-08-28T09:15	1	17.2	30.70	2230	86				
+1968-08-30T09:00	1	17.2	30.90	960	251				
+1968-09-02T09:20	1	16.9	31.20	940	13		238.4	126.4	130.85
+1968-09-04T08:55	1	16.9	31.10	3650	52				
+1968-09-06T09:00	1	17.1	31.40	2080	22				
+1968-09-09T09:15	1	17.0	31.30	2700	114		235.3	132.2	130.85
+1968-09-11T09:50	1	17.3	31.30	2490	84				
+1968-09-13T09:15	1	16.8	32.00	1310	89				
+1968-09-18T08:55	1	16.0	32.10	1200	30				
+1968-09-20T09:25	1	16.2	32.00	1140	18				
+1968-09-23T09:05	1	15.8	32.60	1460	118		232.5	55.4	92.45
+1968-09-25T09:05	1	15.5	32.30	2490	228				
+1968-09-27T09:30	1	15.6	32.60	1720	28				
+1968-09-30T09:20	1	15.4	32.70	1170	33		243.1	55.8	130.41
+1968-10-02T09:30	1	15.0	32.20	820	78				
+1968-10-04T09:30	1	15.1	32.50	710	23				
+1968-10-07T09:15	1	14.8	32.30	312	264		243.4	60.7	162.12
+1968-10-09T09:10	1	14.7	32.20	970	74				
+1968-10-11T14:45	1	14.7	32.40	740	25				
+1968-10-14T09:20	1	14.3	32.30	1350	242		245.9	36.6	182.66
+1968-10-16T09:15	1	14.1	31.80	229	30				
+1968-10-18T08:55	1	13.5	31.80	233	95				
+1968-10-21T09:20	1	13.5	31.60	154	19				
+1968-10-23T09:10	1	13.8	32.00	128	16				
+1968-10-25T08:40	1	13.6	32.10	129	20				
+1968-10-28T09:10	1	13.4	32.20	103	24		243.8	38.4	151.40
+1968-10-30T09:20	1	13.4	32.20	203	91				
+1968-11-01T09:05	1	13.5	32.20	44	14				
+1968-11-04T09:20	1	13.1	32.10	115	57	179			
+1968-11-06T09:20	1	11.9	31.20	363	95				
+1968-11-08T10:00	1	11.3	31.00	268	99		261.2	63.9	137.11
+1968-11-11T10:00	1	11.0	31.40	1070	51				
+1968-11-13T09:50	1	10.8	31.00	1700	101				
+1968-11-18T10:00	1	9.5	31.40	1650	199				
+1968-11-22T09:55	1	9.5	31.60	1040	98		276.6	67.0	142.02
+1968-11-25T10:00	1	9.8	32.50	245	132				
+1968-11-27T09:30	1	9.9		247	64				
+1968-11-29T09:55	1	9.8	32.40	198	70				
+1968-12-02T09:30	1	9.0	32.10	108	93				
+1968-12-04T10:15	1	9.0	32.50	69	65	12			
+1968-12-06T09:35	1	8.7	32.60	62	54				
+1968-12-09T10:00	1	8.1	32.30	159	143	9	290.6	80.4	186.68
+1968-12-11T08:30	1	7.4	32.80	372	105				
+1968-12-13T10:00	1	7.0	32.80	217	121				
+1968-12-16T10:00	1	7.0	33.30	216	39		295.3	79.0	94.68
+1968-12-18T09:55	1	7.2	33.30	168	16				
+1968-12-20T10:00	1	7.1	33.50	97	22				
+1968-12-23T10:15	1	6.9	33.40	177	39				
+1968-12-30T09:50	1	4.6	32.20	800	81				

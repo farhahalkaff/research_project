@@ -1,0 +1,74 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1997 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743179, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1997-01-02T09:00:00 * DATE/TIME END: 1997-12-30T07:40:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads1997 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 1997-01-01T00:00:00 * DATE/TIME END: 1997-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Salinity (Sal) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Salinometer, inductive * COMMENT: PSU
+	Bacteria [#/ml] (Bact) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Flagellates [#/l] (Flag) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Acridine Orange Direct Counting (AODC) (URI: https://en.wikipedia.org/wiki/Acridine_orange)
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: full medium 2216E
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: 1/10 2216E
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: full medium 2216E
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Surface inoculation * COMMENT: 1/10 2216E
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	361 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Sal (PSU, Salinometer, inductive)	Bact [#/ml] (Acridine Orange Direct Counti...)	Flag [#/l] (Acridine Orange Direct Counti...)	Bact mar culti [#/ml] (full medium 2216E, Surface in...)	Bact mar culti [#/ml] (1/10 2216E, Surface inoculation)	Bact fw culti [#/ml] (full medium 2216E, Surface in...)	Bact fw culti [#/ml] (1/10 2216E, Surface inoculation)
+1997-01-02T09:00	1			386070	796	241	509	89	80
+1997-01-08T07:35	1	2.5	32.85	383417	531	125	840	9	0
+1997-01-15T09:05	1	3.3	33.35	352903	796	483	1546	63	0
+1997-01-22T08:25	1	2.9	33.14	380100	531	474	1537	0	0
+1997-01-29T08:20	1	3.3	33.58	222886	531	337	554	9	18
+1997-02-05T07:45	1	3.2	33.59	163184	265				
+1997-02-12T08:00	1	3.4	33.65	225539	0				
+1997-02-19T07:50	1	3.3	33.61	306468	265				
+1997-02-26T07:30	1	3.4	33.65	162521	0				
+1997-03-05T08:50	1	3.8	31.75	357546	1327				
+1997-03-12T07:00	1	3.9	32.77	216916	265	840	1224	0	9
+1997-03-19T09:00	1	3.8	33.07	284577	398	1162	2270	0	0
+1997-03-26T06:50	1	4.2	32.97	236816	1194	71	170	0	0
+1997-04-02T06:40	1	5.2	31.75	563185	1592	1626	4263	18	18
+1997-04-09T06:15	1	5.8	31.02	562190	3184	2038	4910	9	9
+1997-04-16T06:30	1	5.9	30.18	720399	1194	1242	1403	0	0
+1997-04-23T07:10	1	6.3	30.75	516419	1592	2774	4588	107	223
+1997-04-30T06:45	1	7.3	29.39	545274	1194	5233	14158	724	1197
+1997-05-07T06:50	1	7.3	30.40	560200	1592				
+1997-05-14T06:10	1	8.1	32.35	492538	1990				
+1997-05-21T05:49	1	8.8	32.35	868658	2786				
+1997-05-28T07:55	1	9.7	31.45	955225	2388				
+1997-06-04T06:25	1	12.1	30.22	2999009	2388				
+1997-06-11T05:45	1	13.0	30.91	1600002	1990	3584	13547	161	179
+1997-06-18T06:45	1	13.3	30.89	1942291	3184	2581	19618	9	36
+1997-06-25T06:50	1	12.1	32.44	817912	0	545	2975	80	9
+1997-07-02T05:55	1	13.3	32.72	1566171	0	411	8043	0	98
+1997-07-09T06:30	1	15.5	31.42	1024877	796	138	992	18	0
+1997-07-16T06:20	1	17.8	31.43	1110449	1592	1224	15799	0	0
+1997-07-23T06:35	1	16.8	31.31	837812	1592	920	4982	0	9
+1997-07-30T06:30	1	17.0	32.38	465672	796	295	849	0	0
+1997-08-06T06:03	1	18.4	31.27	845772	3184	643	3932	0	0
+1997-08-13T07:20	1	19.4	32.14	811941	1592	1180	4588	0	71
+1997-08-20T07:20	1	18.4	32.87	961195	1592	1720	5489	98	63
+1997-09-03T06:05	1	18.6	33.23	899504	2388	1135	1501	0	0
+1997-09-10T07:10	1	17.2	33.19	1052738	2388	5208	16319	63	179
+1997-09-17T06:50	1	17.2	32.34	648757	1592	4014	5950	45	349
+1997-09-24T07:35	1	16.3	32.22	746270	796	3799	9964	54	179
+1997-10-01T06:45	1	16.2	32.14	955225	398			45	27
+1997-10-08T06:20	1	15.4	32.15	512438	1194		8817	161	206
+1997-10-15T07:10	1	13.9	31.60	493533	1194	1326	3656	71	63
+1997-10-22T07:10	1	13.4	32.13	527364	1194	1966	3172	9	18
+1997-10-29T07:50	1	11.5	31.79	548259	398	357	885	27	0
+1997-11-05T07:30	1	10.3	32.37	496518	1194	2958	5308	36	107
+1997-11-12T08:25	1	11.3	33.42	353234	796	197	420	0	0
+1997-11-26T07:08	1	8.5	33.45	401991	796	161	277	0	18
+1997-12-03T08:10	1	7.5	33.36	416916	796	375	483	0	0
+1997-12-10T08:13	1	7.6	33.26	236816	398	912	1269	88	286
+1997-12-17T09:00	1			159204	0	188	304	9	0
+1997-12-23T08:15	1	6.0	33.88	202985	199	313	420	9	143
+1997-12-30T07:40	1	6.0	33.74	108955	398	161	340	9	9

@@ -1,0 +1,164 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1971 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743154, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1971-01-04T09:30:00 * DATE/TIME END: 1971-12-29T10:00:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads1971 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 1971-01-01T00:00:00 * DATE/TIME END: 1971-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Salinity (Sal) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Salinometer, inductive * COMMENT: PSU
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Yeasts [#/l] (Yeasts) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Oxygen [µmol/l] (O2) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91)
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; with nutrient addition
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; without nutrient addition
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	730 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Sal (PSU, Salinometer, inductive)	Bact mar culti [#/ml] (Plate counts)	Bact fw culti [#/ml] (Plate counts)	Yeasts [#/l] (Plate counts)	O2 [µmol/l] (Oxygen, Winkler (Culberson, 1...)	BOD [µmol/l] (14 days; with nutrient additi...)	BOD [µmol/l] (14 days; without nutrient add...)
+1971-01-04T09:30	1	5.0	33.40	970	154		356.2	142.9	303.69
+1971-01-06T09:30	1	4.3	33.50	1600	141				
+1971-01-08T09:55	1	4.8	33.20	1270	158				
+1971-01-11T09:10	1	4.8	33.10	1200	133		315.6	84.9	192.04
+1971-01-13T09:00	1	4.9	33.60	950	190	7			
+1971-01-15T09:35	1	5.1	33.80	850	77				
+1971-01-20T08:15	1	4.9	33.80	1040	68	115			
+1971-01-22T09:10	1	4.8	33.80	300	71				
+1971-01-25T09:15	1	5.1	33.90	109	16				
+1971-01-26T09:00	1	8.3	32.20	1266	48				
+1971-01-29T09:15	1	5.0	33.80	178	55				
+1971-02-01T09:05	1	4.5	33.80	151	59				
+1971-02-03T09:10	1	4.5	33.70	930	82	12			
+1971-02-05T09:00	1	4.2	32.80	1580	147				
+1971-02-08T09:00	1	4.4	33.20	860	208		315.6	89.3	80.39
+1971-02-10T09:00	1	4.4	32.90	1200	206				
+1971-02-12T09:40	1	4.3	33.00	1400	238	7			
+1971-02-15T08:55	1	4.4	33.30	870	122		312.5	75.9	58.06
+1971-02-17T08:55	1	4.4	33.40	297	149				
+1971-02-19T09:20	1	4.5	33.50	760	104				
+1971-02-22T09:00	1	4.6	33.50	203	134				
+1971-02-24T09:00	1	4.5	33.30	1200	161	35	312.5	93.8	209.90
+1971-02-26T09:00	1	4.1	32.80	1650	248				
+1971-03-01T09:10	1	2.8	30.50	2860	420		331.2	125.0	348.35
+1971-03-03T09:00	1	2.5	30.00	2040	1620	36			
+1971-03-05T09:00	1	2.1	30.30	2010	1650				
+1971-03-08T08:40	1	2.3	31.50	1440	770		325.0	93.8	236.70
+1971-03-10T08:50	1	3.1	31.80	1700	630	52			
+1971-03-12T08:35	1	3.1	32.20	1280	248				
+1971-03-15T08:55	1	3.5	32.40	800	174		312.5	98.3	169.71
+1971-03-17T08:40	1	3.5	32.30	970	192	36			
+1971-03-19T08:40	1	3.6	32.10	890	268				
+1971-03-22T09:15	1	3.5	29.70	1600	1250				
+1971-03-24T08:45	1	3.6	31.20	990	305		371.9	169.7	218.83
+1971-03-26T08:30	1	3.7	32.20	227	169				
+1971-03-28T09:00	1	3.9	32.40	267	78		312.5	80.4	102.72
+1971-03-31T08:50	1	3.7	32.50	221	204	643			
+1971-04-05T09:05	1	4.2	29.90	2100	1340		321.9	169.7	317.09
+1971-04-08T08:30	1	4.2	32.60	207	102	4			
+1971-04-14T09:10	1	5.2	31.40	980	189	12	328.1	183.1	147.38
+1971-04-19T08:55	1	5.3	32.40	211	115		318.8	142.9	200.97
+1971-04-21T09:00	1	5.8	30.90	630	99				
+1971-04-24T09:00	1	6.1	31.90	580	62	4			
+1971-04-26T09:10	1	5.5	32.60	120	94		315.6	102.7	160.78
+1971-04-28T08:50	1	6.0	31.70	1080	137	13			
+1971-04-30T08:50	1	6.1	32.00	93	73				
+1971-05-03T08:40	1	7.1	30.30	2170	156		331.2	183.1	227.77
+1971-05-05T09:15	1	8.0	29.40	2606	138				
+1971-05-07T08:45	1	7.8	30.80	2200	94				
+1971-05-10T09:20	1	7.7	32.00	1510	75		343.8	156.3	160.78
+1971-05-12T08:45	1	8.5	31.50	1750	105	8			
+1971-05-14T08:30	1	9.8	30.60	1038	201				
+1971-05-17T08:45	1	9.5	31.00	267	83		318.8	160.8	183.11
+1971-05-19T08:40	1	10.9	30.10	1108	45	10			
+1971-05-21T08:05	1	9.7	31.60	333	19				
+1971-05-24T09:40	1	8.3	32.80	1020	31		287.5	98.3	147.38
+1971-05-26T08:15	1	7.7	33.20	147	35	12			
+1971-05-28T08:05	1	8.5	32.90	252	51				
+1971-06-02T08:30	1	11.2	30.80	892	34	3	306.2	201.0	218.83
+1971-06-04T08:15	1	11.5	31.70	304	34				
+1971-06-09T08:45	1	11.6	32.40	928	21	2			
+1971-06-11T09:25	1	9.8	32.90	1326	166				
+1971-06-14T08:10	1	10.8	32.50	288	113				
+1971-06-16T08:00	1	11.1	32.00	96	39	19			
+1971-06-18T08:20	1	11.2	32.10	150	35				
+1971-06-21T08:45	1	11.0	32.60	86	18				
+1971-06-23T08:40	1	10.5	33.00	236	42	12			
+1971-06-25T08:15	1	12.5	31.50	806	27				
+1971-06-28T08:05	1	12.4	32.50	250	27		271.9	138.4	183.11
+1971-06-30T08:45	1	12.7	31.50	1028	301	25			
+1971-07-01T09:00	1	15.1	31.60	9820	66				
+1971-07-02T08:20	1	13.0	31.60	1454	39				
+1971-07-05T08:10	1	14.4	31.10	1362	23		303.1	192.0	281.36
+1971-07-07T08:40	1	15.6	30.50	1022	15	0			
+1971-07-10T09:00	1	17.9	29.50	2630	24				
+1971-07-12T08:35	1	16.2	30.60	7620					
+1971-07-14T08:55	1	14.4	32.00	1810	87	0	275.0	111.6	245.63
+1971-07-21T09:00	1	15.6	31.50	6180	53	1	250.0	138.4	281.36
+1971-07-23T09:00	1	15.6	32.10	7460	91				
+1971-07-26T09:00	1	16.3	31.90	1796	30		243.8	111.6	209.90
+1971-07-28T09:05	1	15.7	31.80	2500	340	919			
+1971-07-30T08:50	1	16.6	32.30	1716	12				
+1971-08-02T08:45	1	17.3	30.80	922	19		240.6	111.6	227.77
+1971-08-04T08:45	1	16.3	32.40	844	18	9			
+1971-08-06T08:40	1	16.6	32.80	1837	77				
+1971-08-09T08:55	1	16.3	32.70	2566	203		231.2	232.2	281.36
+1971-08-11T08:50	1	16.5	32.20	2068	163	59			
+1971-08-13T09:15	1	16.1	32.70	6480	346				
+1971-08-16T09:05	1	16.1	32.60	1154	51		234.4	71.5	160.78
+1971-08-18T08:55	1	17.3	32.70	732	25	19			
+1971-08-20T08:45	1	16.9	32.50	976	27				
+1971-08-23T08:40	1	16.8	32.50	1118	103		253.1	89.3	187.57
+1971-08-25T08:40	1	16.4	32.90	884	79	31			
+1971-08-27T08:45	1	16.2	33.10	724	63				
+1971-08-30T08:45	1	16.4	32.90	157	28		243.8	98.3	169.71
+1971-09-01T09:00	1	16.3	32.90	227	60	9			
+1971-09-03T08:40	1	16.4	32.70	192	32				
+1971-09-06T09:10	1	16.4	32.50	758	102		240.6	116.1	147.38
+1971-09-08T08:45	1	16.6	32.40	1090	106	12			
+1971-09-10T08:55	1	16.3	32.50	2414	204				
+1971-09-13T08:55	1	16.2	32.60	628	62		237.5	75.9	125.05
+1971-09-15T09:00	1	15.6	32.30	310	48	12			
+1971-09-20T08:50	1	15.9	32.40	1490	107		228.1	44.7	44.66
+1971-09-22T09:05	1	16.1	32.40	813	29				
+1971-09-24T09:15	1	16.1	32.50	173	49	14			
+1971-09-27T09:00	1	15.8	32.40	261	53		237.5	71.5	147.38
+1971-09-29T09:00	1	15.5	32.50	234	24				
+1971-10-01T08:50	1	15.5	32.10	368	44				
+1971-10-04T09:00	1	15.4	32.60	212	216		228.1	49.1	84.85
+1971-10-06T08:40	1	14.7	32.10	286	43	93			
+1971-10-08T08:50	1	15.7	32.50	1612	270				
+1971-10-11T08:25	1	15.0	32.40	338	53		246.9	67.0	169.71
+1971-10-13T08:50	1	14.4	31.70	586	186				
+1971-10-15T08:45	1	13.6	32.10	862	48				
+1971-10-18T08:40	1	13.6	32.60	141	12				
+1971-10-20T08:45	1	13.8	32.80	904	129	9	259.4	71.5	209.90
+1971-10-22T08:45	1	13.7	32.90	1052	73				
+1971-10-25T09:15	1	13.1	32.50	828	41		259.4	58.1	178.64
+1971-10-27T08:40	1	12.9	32.50	886	108	24			
+1971-10-29T09:00	1	12.8	32.60	678	21				
+1971-11-01T09:10	1	12.8	32.80	602	35		259.4	62.5	125.05
+1971-11-03T09:10	1	12.9	32.80	776	58	39			
+1971-11-05T09:00	1	12.8	32.90	1312	125				
+1971-11-08T08:50	1	11.8	32.70	1057	177				
+1971-11-10T09:10	1	11.1	32.40	972	78	13			
+1971-11-12T09:45	1	11.2	32.70	548	49				
+1971-11-15T08:45	1	11.0	32.70	235	74	53	253.1	35.7	200.97
+1971-11-19T09:30	1	8.6	31.50	1478	243				
+1971-11-24T09:40	1	8.0	32.00	1110	82	24			
+1971-11-29T09:30	1	8.0	32.30	934	32				
+1971-12-01T09:10	1	8.2	32.60	656	34	7			
+1971-12-03T09:30	1	8.1	32.70	228	27				
+1971-12-06T09:25	1	8.5	33.00	134	38		278.1	147.4	370.68
+1971-12-10T09:20	1	8.0	32.90	2932	422	9			
+1971-12-13T10:00	1	7.4	31.90	1908	103		293.8	415.3	406.41
+1971-12-15T09:45	1	7.4	32.20	1138	118	2			
+1971-12-17T09:45	1	7.6	32.30	934	54				
+1971-12-20T09:40	1	7.6	32.50	792	50				
+1971-12-22T10:05	1	7.8	32.80	838	112				
+1971-12-27T09:55	1	7.4	32.60	496	45	36			
+1971-12-29T10:00	1	6.4	32.10	2036	238				

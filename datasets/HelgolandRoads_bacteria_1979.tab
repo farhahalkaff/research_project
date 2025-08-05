@@ -1,0 +1,151 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1979 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743162, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1979-01-03T09:30:00 * DATE/TIME END: 1979-12-21T09:20:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads1979 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 1979-01-01T00:00:00 * DATE/TIME END: 1979-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Salinity (Sal) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Salinometer, inductive * COMMENT: PSU
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts * COMMENT: Neuston
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts * COMMENT: Neuston
+	Yeasts [#/l] (Yeasts) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Oxygen [µmol/l] (O2) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91)
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; with nutrient addition
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; without nutrient addition
+	Surface tension [dyn/cm**2] (Surf tens) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * COMMENT: Neuston
+	Surface tension [dyn/cm**2] (Surf tens) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	759 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Sal (PSU, Salinometer, inductive)	Bact mar culti [#/ml] (Plate counts)	Bact fw culti [#/ml] (Plate counts)	Bact mar culti [#/ml] (Neuston, Plate counts)	Bact fw culti [#/ml] (Neuston, Plate counts)	Yeasts [#/l] (Plate counts)	O2 [µmol/l] (Oxygen, Winkler (Culberson, 1...)	BOD [µmol/l] (14 days; with nutrient additi...)	BOD [µmol/l] (14 days; without nutrient add...)	Surf tens [dyn/cm**2] (Neuston)	Surf tens [dyn/cm**2]
+1979-01-03T09:30	1	2.0	33.80	92	64	85	193		365.6	134.0	290.29	2.20	10.80
+1979-01-10T08:10	1	3.0	33.60	297	211	918	296		340.6	134.0	401.94	0.80	21.00
+1979-01-18T08:20	1	2.4	33.40	485	117	505	270		350.0	129.5	285.82	22.40	26.20
+1979-01-24T09:50	1	1.5	34.00	195	25	329	252		350.0	116.1	218.83	23.60	21.40
+1979-01-26T10:00	1	2.2	34.00	350									
+1979-01-29T09:50	1	1.6	33.90	430									
+1979-01-31T09:45	1	1.7	34.00	311	163	658	282		350.0	138.4	183.11	21.70	19.90
+1979-02-02T09:20	1	1.6	34.00	113									
+1979-02-05T09:20	1	1.4	33.80	312									
+1979-02-07T09:10	1	1.0	33.60	790	107	820	291		359.4	129.5	263.49	12.80	12.40
+1979-02-09T09:00	1	1.3	33.80	1244									
+1979-02-20T09:00	1	0.0	33.90	650					375.0			15.00	16.50
+1979-02-21T09:05	1	-0.2	33.70	650	136	114	206						
+1979-02-23T09:00	1	-0.2	33.00	410									
+1979-02-26T09:00	1	0.1	33.40	1490					371.9	205.4	343.88	23.30	6.50
+1979-02-28T09:10	1	0.3	33.70	808	403	75	188						
+1979-03-02T09:00	1	0.6	33.90	934									
+1979-03-05T08:55	1	0.7	33.70	1246									
+1979-03-07T08:10	1	1.0	33.70	400	193	79	70		371.9	156.3	174.17	6.40	8.30
+1979-03-09T07:50	1	1.4	33.90	358									
+1979-03-12T09:05	1	1.3	33.90	1412									
+1979-03-14T09:30	1	1.2	33.60	3074	190	2159	490		275.0	17.9	93.79	8.00	6.60
+1979-03-19T08:30	1	0.6	33.20	4490									
+1979-03-21T08:35	1	1.0	33.50	2110	129	3220	716		300.0	58.1	58.06	7.10	6.00
+1979-03-26T08:35	1	1.6	33.50	4040									
+1979-03-28T08:20	1	1.8	33.40	1480	115	520	150		375.0	156.3	165.24	10.40	12.70
+1979-03-30T08:25	1	1.7	33.30	1375									
+1979-04-02T08:25	1	2.0	32.10	4000									
+1979-04-04T08:30	1	1.8	32.00	3730	508	3620	362		378.1	290.3	317.09	6.60	9.60
+1979-04-09T08:40	1	2.1	32.60	3960									
+1979-04-11T08:50	1	2.6	32.30	1704	65	654	60		375.0	13.4	160.78	7.00	2.80
+1979-04-18T08:45	1	3.2	31.70	2934	282	1810	823		381.2	196.5	263.49	11.50	5.60
+1979-04-20T08:40	1	3.5	31.60	3190									
+1979-04-23T08:50	1	4.1	31.50	4120									
+1979-04-25T08:40	1	3.8	32.40	2460	74	1880	1980		378.1	183.1	183.11	4.60	15.60
+1979-04-27T08:30	1	4.1	32.20	3034									
+1979-04-29T09:00	1	4.5	32.15	4150									
+1979-05-03T08:10	1	5.2	28.90	9760	1520	7660	1386		268.8	156.3	174.17	12.20	8.10
+1979-05-07T08:15	1	6.0	27.70	7600									
+1979-05-09T08:30	1	6.1	30.80	7520	706	2720	1564		371.9	393.0	415.34	10.50	6.20
+1979-05-11T08:20	1	6.5	29.50	5480									
+1979-05-14T08:20	1	6.4	31.60	1200									
+1979-05-16T07:45	1	6.1	31.90	3640	606	2414	558		365.6	205.4	192.04	7.20	3.90
+1979-05-18T08:00	1	6.3	31.90	2980									
+1979-05-21T09:05	1		31.50	7600									
+1979-05-25T08:40	1	7.7	32.10	1960									
+1979-05-28T08:20	1	8.1	32.20	2158									
+1979-05-30T09:00	1	8.9	32.10	1860	322	10020	2652		337.5	183.1	196.50	14.40	20.10
+1979-06-01T09:30	1	9.0	33.10	3060									
+1979-06-06T09:20	1	10.3	32.70	1902	394	2028	686		312.5	250.1	299.22	6.20	19.90
+1979-06-08T08:50	1	10.4	33.00	2992									
+1979-06-11T08:35	1	10.6	32.20	8580									
+1979-06-13T08:30	1	10.1	32.80	4680	668	8800	2147		300.0	142.9	120.58	17.40	8.00
+1979-06-15T08:35	1	10.6	32.70	5760									
+1979-06-18T08:25	1	12.7	30.40	8840									
+1979-06-20T08:50	1	13.1	30.70	14800	4304	17540	4552	1000	300.0	192.0	196.50	15.50	9.60
+1979-06-22T08:20	1	14.2	30.10	9640									
+1979-06-25T08:25	1	12.7	31.30	6160									
+1979-06-27T08:30	1	12.8	32.20	2580	216	2380	658	0	287.5	227.8	276.89	14.80	14.80
+1979-06-29T08:20	1	13.3	32.20	2500									
+1979-07-01T09:00	1	14.1	30.80	4380	580	3535	2316		250.0	129.5	218.83	16.80	7.70
+1979-07-02T08:25	1	13.0	30.90	4114				51					
+1979-07-04T08:30	1	13.7	30.30	4200	318	1462	1266		290.6	192.0	209.90	12.30	4.50
+1979-07-06T08:20	1	14.0	30.50	2508				10					
+1979-07-13T08:20	1	15.6	28.90	752									
+1979-07-16T08:20	1	14.8	30.30	1190									
+1979-07-18T08:50	1	16.0	29.30	908	194	1448	500	16	262.5	227.8	205.44	13.90	21.10
+1979-07-20T08:15	1	15.0	31.00	326									
+1979-07-23T08:15	1	14.4	30.50	330									
+1979-07-25T08:20	1	15.2	30.20	218	36	1650	1014	2530	240.6	183.1	245.63	26.50	23.40
+1979-07-27T08:20	1	15.3	30.20	76									
+1979-07-30T08:45	1	16.0	30.30	1478									
+1979-08-01T08:20	1	16.2	30.60	268	62	728	132		303.1	303.7	250.10	25.70	22.50
+1979-08-03T08:15	1	16.0	30.30	270									
+1979-08-06T08:20	1	16.4	30.10	34									
+1979-08-08T08:30	1	16.0	31.50	94	39	462	164		246.9	196.5	227.77	22.90	15.10
+1979-08-10T08:30	1	15.6	31.40	86									
+1979-08-16T08:30	1	16.0	31.50	292	121	1320	1646	6	250.0	272.4	263.49	9.50	3.30
+1979-08-17T08:10	1	16.4	29.20	724									
+1979-08-20T08:05	1	16.3	31.10	50									
+1979-08-22T08:30	1	15.8	31.50	898	45	1296	2150	9	221.9	187.6	196.50	6.50	1.40
+1979-08-24T08:20	1	15.9	31.30	925									
+1979-08-27T08:30	1	15.7	31.90	814									
+1979-08-29T08:25	1	15.5	31.40	626	117	826	492	7	234.4	196.5	227.77	4.00	8.90
+1979-08-31T08:10	1	16.4	31.10	308									
+1979-09-03T08:15	1	16.3	30.30	855									
+1979-09-05T09:30	1	16.5	30.40	974	210	8100	5096	7	243.8	227.8	281.36	9.10	3.40
+1979-09-07T08:15	1	16.4	30.20	416									
+1979-09-12T08:15	1	16.0	31.60	1578	150	7020	2426	45	212.5	129.5	218.83	20.00	8.60
+1979-09-14T09:30	1	15.9	31.30	354									
+1979-09-17T08:25	1	15.3	30.40	296									
+1979-09-19T08:35	1	15.4	30.90	101	35	2113	1742	4	243.8	89.3	169.71	11.40	3.80
+1979-09-21T08:10	1	15.1	30.90	147									
+1979-09-24T08:25	1	15.0	31.10	1196									
+1979-09-26T08:20	1	15.1	31.10	223	201	1429	1280	75	240.6	129.5	93.79	8.40	3.80
+1979-09-28T08:30	1	14.9	31.60	118									
+1979-10-01T07:55	1	14.2	30.80	320									
+1979-10-05T08:20	1	13.8	32.40	476									
+1979-10-08T08:55	1	14.0	32.70	142									
+1979-10-10T08:25	1	14.0	32.70	60	36	862	1670	13	256.2	75.9	165.24	19.70	7.80
+1979-10-12T08:00	1	14.2	32.60	184									
+1979-10-15T08:40	1	14.0	32.60	56									
+1979-10-17T08:35	1	13.8	32.60	181	79	1986	1568	10	250.0	93.8	205.44	15.10	21.00
+1979-10-19T08:25	1	13.5	32.40	1096									
+1979-10-22T08:25	1	12.6	31.70	253									
+1979-10-24T13:30	1	12.0	32.10	181	166	2886	3412	12	275.0	89.3	151.84	13.10	8.00
+1979-10-26T07:25	1	11.3	32.90	77									
+1979-10-29T08:15	1	10.8	33.40	160									
+1979-10-31T08:30	1	10.9	33.70	211	145	1088	918	3	275.0	102.7	151.84	11.90	7.00
+1979-11-02T08:15	1	11.2	33.80	241									
+1979-11-05T08:00	1	11.0	33.70	1336									
+1979-11-07T08:45	1	10.5	33.60	564	125	1294	796	0	278.1	165.2	241.16	4.90	5.40
+1979-11-09T08:25	1	10.5	33.60	134									
+1979-11-28T09:20	1	8.5	32.90	734	143	267	176	53	296.9	129.5	192.04	9.40	11.60
+1979-11-30T09:25	1	8.5	33.20	195									
+1979-12-02T09:00	1	8.8	33.10	207									
+1979-12-05T08:50	1	8.7	33.10	182	53	1373	1698	11	293.8	102.7	254.56	10.00	9.50
+1979-12-07T09:50	1	8.5	33.00	191									
+1979-12-10T09:30	1	8.6	33.00	98									
+1979-12-12T09:40	1	7.7	32.80	72	47	184	136	27	300.0	102.7	209.90	20.40	10.50
+1979-12-14T09:00	1	7.6	33.00	28									
+1979-12-17T08:35	1	8.2	33.00	21									
+1979-12-19T09:45	1	7.0	32.40	57	98	512	830	26	306.2	245.6	187.57	15.20	12.60
+1979-12-21T09:20	1	6.5	32.60	75									

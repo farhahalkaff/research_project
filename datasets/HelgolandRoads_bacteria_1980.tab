@@ -1,0 +1,79 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1980 [dataset]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.743163, 
+	In: Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Project(s):	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1980-01-09T10:00:00 * DATE/TIME END: 1980-12-23T09:40:00
+	MINIMUM DEPTH, water: 1 m * MAXIMUM DEPTH, water: 1 m
+Event(s):	HelgolandRoads1980 (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * DATE/TIME START: 1980-01-01T00:00:00 * DATE/TIME END: 1980-12-31T23:59:00 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * O2A Registry URI: https://registry.o2a-data.de/items/8674 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Temperature, water [°C] (Temp) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Mercury thermometer, in situ
+	Salinity (Sal) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Salinometer, inductive * COMMENT: PSU
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, marine, cultivable [#/ml] (Bact mar culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts * COMMENT: Neuston
+	Bacteria, freshwater, cultivable [#/ml] (Bact fw culti) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts * COMMENT: Neuston
+	Yeasts [#/l] (Yeasts) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Plate counts
+	Bacteria, oil degrading [#/ml] (Bact oil deg) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Most probable number method (MPN), based on serial dilutions (URI: https://en.wikipedia.org/wiki/Most_probable_number)
+	Oxygen [µmol/l] (O2) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91)
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; with nutrient addition
+	Biological oxygen demand [µmol/l] (BOD) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * METHOD/DEVICE: Oxygen, Winkler (Culberson, 1991, WOCE Report 68/91) * COMMENT: 14 days; without nutrient addition
+	Surface tension [dyn/cm**2] (Surf tens) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * COMMENT: Neuston
+	Surface tension [dyn/cm**2] (Surf tens) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html)
+	Carbon, organic, total [mg/l] (TOC) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html) * COMMENT: Neuston
+	Carbon, organic, total [mg/l] (TOC) * PI: Gerdts, Gunnar (https://orcid.org/0000-0003-0872-3927, Gunnar.Gerdts@awi.de, https://www.awi.de/en/about-us/organisation/staff/single-view/gunnar-gerdts.html)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	731 data points
+*/
+Date/Time	Depth water [m]	Temp [°C] (Mercury thermometer, in situ)	Sal (PSU, Salinometer, inductive)	Bact mar culti [#/ml] (Plate counts)	Bact fw culti [#/ml] (Plate counts)	Bact mar culti [#/ml] (Neuston, Plate counts)	Bact fw culti [#/ml] (Neuston, Plate counts)	Yeasts [#/l] (Plate counts)	Bact oil deg [#/ml] (Most probable number method (...)	O2 [µmol/l] (Oxygen, Winkler (Culberson, 1...)	BOD [µmol/l] (14 days; with nutrient additi...)	BOD [µmol/l] (14 days; without nutrient add...)	Surf tens [dyn/cm**2] (Neuston)	Surf tens [dyn/cm**2]	TOC [mg/l] (Neuston)	TOC [mg/l]
+1980-01-09T10:00	1	5.3	33.21	86	94	111	322	27	15	318.8	107.2	129.51	10.00	7.80	27.30	2.67
+1980-01-16T09:45	1	4.5	33.31	43	130	94	78	10	4	318.8	102.7	196.50	12.40	8.20	7.18	1.05
+1980-01-23T10:00	1	4.9	34.07	44	102	99	46	170	150	318.8	116.1	174.17	8.90	4.10	39.20	2.07
+1980-01-30T10:20	1	4.6	34.28	420	196	128	113		43	325.0	125.0	174.17	1.90	10.50	1.72	1.57
+1980-02-06T08:40	1	3.2	33.79	544	49	613	620	70	8	340.6	107.2	151.84	4.90	9.50	132.00	2.38
+1980-02-20T09:00	1	3.2	33.51	970	26	874	71	24	8	340.6	125.0	142.91	2.90	10.60	27.10	1.31
+1980-02-27T09:05	1	3.3	33.52	1446	149	371	313	12	0	340.6	111.6	129.51	13.50	7.90	45.60	3.58
+1980-03-04T09:00	1	3.2	32.05	2480	285	3120	1270	32	1	343.8	129.5	151.84	12.90	8.50	36.60	2.80
+1980-03-12T09:00	1	3.3	32.21	2050	360	2378	512	32	0	337.5	120.6	147.38	2.00	11.20	5.28	3.37
+1980-03-19T13:35	1	3.2	32.69	1510	194	1478	546	50	24	346.9	120.6	151.84	3.60	4.30	8.71	2.26
+1980-03-26T08:25	1	3.3	33.14	1340	58	1848	790	4	0	343.8	125.0	147.38	15.60	11.20	23.50	1.78
+1980-04-02T09:00	1	4.1	32.98	2198	169	2054	418	52	15	331.2	98.3	160.78	18.60	1.20	37.10	3.80
+1980-04-09T07:30	1	4.3	31.30	2250	534	4434	2032	40	4	337.5	107.2	156.31	2.30	5.10	15.10	2.28
+1980-04-15T08:10	1	5.2	31.10	1995	234	1452	1012	10	4	381.2	169.7	192.04	1.80	13.20	120.00	2.84
+1980-04-23T07:20	1	5.6	29.82	1710	432	2454	1688	33	0	371.9	174.2	254.56	16.40	9.00	8.05	5.46
+1980-04-30T08:00	1	6.4	30.21	218	152	1508	5530	11	1	356.2	134.0	160.78	23.10	1.20	21.30	2.52
+1980-05-07T07:20	1	7.6	28.28	3034	528	1120	795	18	4	331.2	138.4	160.78	4.90	11.40	18.60	1.93
+1980-05-14T07:50	1	8.3	29.85	624	109	5080	930	8	1	334.4	156.3	165.24	7.90	2.10	156.00	2.71
+1980-05-21T07:35	1	10.1	28.72	5624	599	7260	952	3	1	350.0	142.9	120.58	8.90	3.70	23.40	2.75
+1980-05-28T08:00	1	11.2	29.46	440	78	1346	1044	16	4	303.1	147.4	125.05	11.70	2.20	21.00	2.28
+1980-06-04T07:55	1	11.0	30.56	15480	1902	11560	1712	20	8	296.9	160.8	174.17	14.70	9.80	42.60	2.64
+1980-06-11T07:15	1	12.5	30.49	2940	1426	9820	2392	210	9	293.8	160.8	133.98	13.90	5.90	27.00	2.33
+1980-06-18T06:05	1	13.1	31.03	2132	410	2900	653	40	93	290.6	165.2	151.84	14.20	12.10	21.20	4.48
+1980-06-25T07:40	1	13.8	32.31	1664	172	1408	236	110	4	278.1	107.2	147.38	20.90	8.50	8.09	1.27
+1980-07-02T07:35	1	13.3	31.87	2670	2110	1260	470	70	4	256.2	183.1	250.10	17.90	4.00	6.23	4.18
+1980-07-09T07:30	1	14.3	31.39	3140	779	978	720	11	2	265.6	138.4	125.05	14.80	10.80	23.80	2.49
+1980-07-15T07:15	1	14.4	30.70	1710	370	1794	1412	48	2	246.9	142.9	200.97	7.80	6.20	8.44	2.57
+1980-07-23T07:20	1	14.9	31.17	143	90	1146	815	8	4	268.8	174.2	205.44	3.90	12.60	9.12	2.87
+1980-08-06T07:45	1	16.4	31.46	1835	870	4540	1690	108	21	250.0	129.5	66.99	16.50	8.30	9.13	2.32
+1980-08-13T07:40	1	16.6	30.62	3366	432	4380	694	3	8	253.1	125.0	192.04	14.80	10.20	25.50	2.46
+1980-08-20T07:40	1	17.0	32.09	1010	1042	1242	920	22	150	243.8	75.9	53.59	13.80	5.70	13.00	1.77
+1980-08-27T08:30	1	16.3	30.53	8440	26		736	5	4600	234.4	120.6	232.23	12.90	2.80	9.53	2.32
+1980-09-03T08:05	1	16.5	30.86	1684	98	5440		44	0	256.2	80.4	66.99	19.70	18.40	21.30	3.47
+1980-09-10T07:45	1	16.3	31.15	1624	202		2388	102	15	240.6	93.8	71.46	15.10	8.90	6.46	1.56
+1980-09-17T07:25	1	15.8	29.45	428	98	1820	694	13	15	250.0	44.7	165.24	7.10	4.90	8.96	1.47
+1980-09-24T07:50	1	16.0	30.67	9650	560	5480	2140	220	120	240.6	93.8	151.84	26.30	16.80	6.00	2.48
+1980-10-01T08:35	1	15.3	30.59	790	112	1204	202	370	9300	253.1	26.8	22.33	10.20	7.90	4.61	1.77
+1980-10-08T09:05	1	14.4	31.48	340	18	1295	730	300	2	268.8	80.4	142.91	9.20	1.60	12.80	2.02
+1980-10-15T08:30	1	13.3	30.81	518	118	1250	216	131	4	262.5	241.2	205.44	10.80	1.00	8.46	2.27
+1980-10-22T08:25	1	12.6	31.50	85	50	1488	1342	340	29	268.8	93.8	138.45	10.30	2.80	16.70	1.88
+1980-10-29T08:40	1	12.3	31.73	188	85	13600	7908	80	9	275.0	80.4	129.51	8.20	9.90	9.12	1.92
+1980-11-05T08:40	1	10.3	32.58	133	48	648	280	13	2	287.5	89.3	174.17	10.50	2.70	17.10	2.16
+1980-11-12T09:05	1	9.7	33.08	118	39	1026	876	50	93	290.6	84.9	142.91	19.70	8.20	64.30	3.52
+1980-11-20T09:45	1	8.8	31.98	516	80	1764	1186	40	2	300.0	84.9	272.43	4.90	8.70	10.70	2.86
+1980-11-26T07:40	1	8.9	32.86	492	49	1610	1228	400	23	296.9	89.3	299.22	10.90	3.80	7.60	2.13
+1980-12-03T09:50	1	7.0	32.52	221	109	490	255	28	2	331.2	116.1	388.54	4.00	1.00	7.56	2.75
+1980-12-10T09:15	1	6.3	32.06	884	159	736	169	20	15	318.8	98.3	366.21	7.30	9.10	15.70	2.97
+1980-12-17T08:50	1	5.8	31.45	2004	474	2680	1238	4	8	318.8	98.3	343.88	7.60	14.00	18.30	3.25
+1980-12-23T09:40	1	6.1	32.92	108	84	584	348	27	15	309.4	89.3	75.92	5.60	6.40	15.20	2.39

@@ -1,0 +1,55 @@
+/* DATA DESCRIPTION:
+Citation:	Gerdts, Gunnar (2024): Bacteria at time series station Helgoland Roads, North Sea from 1962 to 2002 [dataset publication series]. Alfred Wegener Institute - Biological Institute Helgoland, PANGAEA, https://doi.org/10.1594/PANGAEA.959956
+Abstract:	This data collection contains bacteria counts and water temperature measurements at Long-term Ecological Research at AWI (LTER) station Helgoland Roads, North Sea from 1962 until 2002.
+Project(s):	Helgoland Roads Timeseries (HelgolandRoads) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Macrobenthic long-term series in the German Bight (LTER_Benthos) (URI: https://www.awi.de/en/science/long-term-observations/biology/north-sea.html)
+	Shelf Seas Systems Ecology @ AWI (former Biologische Anstalt Helgoland) (BAH) (URI: https://www.awi.de/en/science/biosciences/shelf-sea-system-ecology.html)
+Coverage:	LATITUDE: 54.188330 * LONGITUDE: 7.900000
+	DATE/TIME START: 1962-01-15T10:30:00 * DATE/TIME END: 2002-12-30T12:55:00
+Event(s):	HelgolandRoads (Kabeltonne) * LATITUDE: 54.188330 * LONGITUDE: 7.900000 * ELEVATION: -10.0 m * DEIMS ID: https://deims.org/1e96ef9b-0915-4661-849f-b3a72f5aa9b1 * LOCATION: German Bight, North Sea * CAMPAIGN: LTER_HelgolandRoads (Kabeltonne, Long-term Ecological Research Helgoland Roads) * BASIS: Marine Station Helgoland (URI: https://www.awi.de/en/about-us/sites/helgoland.html) * METHOD/DEVICE: Monitoring (MON)
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0) (URI: https://creativecommons.org/licenses/by/4.0/)
+Size:	41 datasets
+*/
+/* TABULAR SUMMARY OF DATASETS LISTED IN THIS COLLECTION: */
+Filename	Citation of child dataset
+HelgolandRoads_bacteria_1962.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1962. https://doi.org/10.1594/PANGAEA.743145
+HelgolandRoads_bacteria_1963.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1963. https://doi.org/10.1594/PANGAEA.743146
+HelgolandRoads_bacteria_1964.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1964. https://doi.org/10.1594/PANGAEA.743147
+HelgolandRoads_bacteria_1965.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1965. https://doi.org/10.1594/PANGAEA.743148
+HelgolandRoads_bacteria_1966.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1966. https://doi.org/10.1594/PANGAEA.743149
+HelgolandRoads_bacteria_1967.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1967. https://doi.org/10.1594/PANGAEA.743150
+HelgolandRoads_bacteria_1968.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1968. https://doi.org/10.1594/PANGAEA.743151
+HelgolandRoads_bacteria_1969.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1969. https://doi.org/10.1594/PANGAEA.743152
+HelgolandRoads_bacteria_1970.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1970. https://doi.org/10.1594/PANGAEA.743153
+HelgolandRoads_bacteria_1971.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1971. https://doi.org/10.1594/PANGAEA.743154
+HelgolandRoads_bacteria_1972.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1972. https://doi.org/10.1594/PANGAEA.743155
+HelgolandRoads_bacteria_1973.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1973. https://doi.org/10.1594/PANGAEA.743156
+HelgolandRoads_bacteria_1974.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1974. https://doi.org/10.1594/PANGAEA.743157
+HelgolandRoads_bacteria_1975.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1975. https://doi.org/10.1594/PANGAEA.743158
+HelgolandRoads_bacteria_1976.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1976. https://doi.org/10.1594/PANGAEA.743159
+HelgolandRoads_bacteria_1977.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1977. https://doi.org/10.1594/PANGAEA.743160
+HelgolandRoads_bacteria_1978.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1978. https://doi.org/10.1594/PANGAEA.743161
+HelgolandRoads_bacteria_1979.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1979. https://doi.org/10.1594/PANGAEA.743162
+HelgolandRoads_bacteria_1980.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1980. https://doi.org/10.1594/PANGAEA.743163
+HelgolandRoads_bacteria_1981.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1981. https://doi.org/10.1594/PANGAEA.743164
+HelgolandRoads_bacteria_1982.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1982. https://doi.org/10.1594/PANGAEA.743138
+HelgolandRoads_bacteria_1983.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1983. https://doi.org/10.1594/PANGAEA.743165
+HelgolandRoads_bacteria_1984.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1984. https://doi.org/10.1594/PANGAEA.743166
+HelgolandRoads_bacteria_1985.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1985. https://doi.org/10.1594/PANGAEA.743167
+HelgolandRoads_bacteria_1986.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1986. https://doi.org/10.1594/PANGAEA.743168
+HelgolandRoads_bacteria_1987.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1987. https://doi.org/10.1594/PANGAEA.743169
+HelgolandRoads_bacteria_1988.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1988. https://doi.org/10.1594/PANGAEA.743170
+HelgolandRoads_bacteria_1989.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1989. https://doi.org/10.1594/PANGAEA.743171
+HelgolandRoads_bacteria_1990.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1990. https://doi.org/10.1594/PANGAEA.743172
+HelgolandRoads_bacteria_1991.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1991. https://doi.org/10.1594/PANGAEA.743173
+HelgolandRoads_bacteria_1992.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1992. https://doi.org/10.1594/PANGAEA.743174
+HelgolandRoads_bacteria_1993.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1993. https://doi.org/10.1594/PANGAEA.743175
+HelgolandRoads_bacteria_1994.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1994. https://doi.org/10.1594/PANGAEA.743176
+HelgolandRoads_bacteria_1995.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1995. https://doi.org/10.1594/PANGAEA.743177
+HelgolandRoads_bacteria_1996.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1996. https://doi.org/10.1594/PANGAEA.743178
+HelgolandRoads_bacteria_1997.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1997. https://doi.org/10.1594/PANGAEA.743179
+HelgolandRoads_bacteria_1998.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1998. https://doi.org/10.1594/PANGAEA.743180
+HelgolandRoads_bacteria_1999.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 1999. https://doi.org/10.1594/PANGAEA.743181
+HelgolandRoads_bacteria_2000.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 2000. https://doi.org/10.1594/PANGAEA.743182
+HelgolandRoads_bacteria_2001.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 2001. https://doi.org/10.1594/PANGAEA.743183
+HelgolandRoads_bacteria_2002.tab	Gerdts, Gunnar (2010): Bacteria at time series station Helgoland Roads, North Sea, in 2002. https://doi.org/10.1594/PANGAEA.743184
