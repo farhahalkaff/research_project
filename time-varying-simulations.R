@@ -148,7 +148,7 @@ sim_time_varying_var <- function(
 #### Simulate one time series ####
 
 # Simulate with two covariates affecting the mean
-n <- 200
+n <- 100
 covs <- tibble::tibble(
   x1 = rep(1, n)
 )
@@ -257,6 +257,7 @@ time <- 1:100
 mu <- 50 + 10 * sin(2 * pi * time / 50)      # location (mean)
 sigma <- 5 + 2 * cos(2 * pi * time / 30)     # scale (standard deviation)
 nu <- 5 * sin(2 * pi * time / 40)            # shape (skewness)
+nu <- 0 * sin(2 * pi * time / 40)   
 
 # Simulate data using the SN1 (Skew Normal type 1) distribution
 y <- numeric(length(time))
@@ -273,7 +274,6 @@ ggplot(df, aes(x = Time, y = Value)) +
   labs(title = "Simulated Time Series with GAMLSS-like Parameters",
        x = "Time", y = "Value") +
   theme_minimal()
-
 
 
 
