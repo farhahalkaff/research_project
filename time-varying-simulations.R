@@ -233,8 +233,47 @@ ggplot(sim, aes(x = time)) +
   theme_minimal(base_size = 14)
 
 
+### git issues ###
 install.packages("usethis")
 usethis::create_github_token()
 
 install.packages("gitcreds")
 gitcreds::gitcreds_set()
+
+
+## Andrew's codes 
+
+library(gamlss)
+library(gamlss.dist)
+library(ggplot2)
+
+# Set seed for reproducibility
+set.seed(42)
+
+# Define time points
+time <- 1:100
+
+# Define time-varying parameters
+mu <- 50 + 10 * sin(2 * pi * time / 50)      # location (mean)
+sigma <- 5 + 2 * cos(2 * pi * time / 30)     # scale (standard deviation)
+nu <- 5 * sin(2 * pi * time / 40)            # shape (skewness)
+
+# Simulate data using the SN1 (Skew Normal type 1) distribution
+y <- numeric(length(time))
+for (t in time) {
+  y[t] <- rSN1(1, mu[t], sigma[t], nu[t])
+}
+
+# Create a data frame
+df <- data.frame(Time = time, Value = y, Mu = mu, Sigma = sigma, Nu = nu)
+
+# Plot the time series
+ggplot(df, aes(x = Time, y = Value)) +
+  geom_line(color = "steelblue") +
+  labs(title = "Simulated Time Series with GAMLSS-like Parameters",
+       x = "Time", y = "Value") +
+  theme_minimal()
+
+
+
+
