@@ -1,3 +1,8 @@
+while (sink.number() > 0) sink()  # clean any old sinks
+sink("simulations_output.txt")
+source("simulations.R")           # run your existing script
+sink()
+
 # =========================
 # Sim 1: time-varying variance (robust, no purrr)
 # =========================
@@ -128,11 +133,25 @@ for (k in k_start:k_end) {
 
 summary_tbl <- data.frame(
   model          = c("M0: const sigma", "M1: sigma(t)"),
-  mean_log_score = c(mean(logscore_M0, na.rm = TRUE), mean(logscore_M1, na.rm = TRUE)),
+  mean_log_score = c(mean(logscore_M0, na.rm = TRUE), mean(logscore_M1, na.rm = TRUE)), 
   mean_crps      = c(mean(crps_M0,     na.rm = TRUE), mean(crps_M1,     na.rm = TRUE)),
   cover95_rate   = c(mean(cov95_M0,    na.rm = TRUE), mean(cov95_M1,    na.rm = TRUE))
 )
 print(summary_tbl)
+
+# WHAT DO THEY MEAN?
+## mean_log_score = Average log predictive density at the observed values. Closer to 0 (less negative) 
+### is better, means that the model put more probability mass on what actually happened. So here, M1 is 
+### closer to 0, therefore that model gives systematically higher likelihood to observed outcomes.
+## mean_crps = Continuous Ranked Probability Score, it measure the accuracy of the whole predictive distribution 
+### (mean + spread), and lower is better. Here, M1 is lower, hence its predictive distribution are sharper and 
+### better aligned with reality 
+## cover95_rate = its the coverage of 95% interval, looking at how often the realized value fell inside the 
+### 95% predictive interval. we want it to be ~ 0.95 (predictive intervals are well calibrated). Here, M0 is ~ 97%, 
+### while M1 is ~ 93%. M0 is playing is too safe by predicting larger interval that rarely miss, but waste sharpness 
+### (overestimating uncertainty). M1 is too bold by predicting narrower interval that miss a bit more often than they 
+### should. Both are close to ~95% so they're well calibrated 
+
 
 # ---- 4) VISUAL CHECKS ----
 # True vs fitted sigma (full-series M1)
@@ -150,3 +169,147 @@ u <- pNO(dat$y, mu = as.numeric(pa_full$mu), sigma = as.numeric(pa_full$sigma))
 print(ggplot(data.frame(u = u), aes(u)) +
         geom_histogram(bins = 20) +
         labs(title = "PIT histogram (M1)", x = "u", y = "count"))
+
+
+
+
+# =========================
+# Sim 2: time-varying mean + variance
+# =========================
+
+set.seed(456)
+
+# ---- 1) SIMULATE ----
+n          <- 800
+t_index    <- seq_len(n)
+t_scaled   <- (t_index - 1)/(n - 1)
+
+# Mean varies smoothly (sinusoidal + drift)
+mu_t     <- 2 * sin(2*pi*t_scaled) + 0.5 * t_scaled
+
+# Variance varies with time
+sigma_t  <- 1.5 + 0.5*sin(4*pi*t_scaled) + 0.3*t_scaled
+sigma_t  <- pmax(sigma_t, 0.2)  # keep >0
+
+y <- rnorm(n, mean = mu_t, sd = sigma_t)
+
+dat <- data.frame(
+  t = t_index,
+  t_scaled = t_scaled,
+  y = y,
+  mu_true = mu_t,
+  sd_true = sigma_t
+)
+
+# ---- 2) FIT MODELS ON FULL SERIES ----
+# M0: constant mean + constant variance
+m0 <- gamlss(y ~ 1, sigma.fo = ~ 1, family = NO(), data = dat, trace = FALSE)
+
+# M1: time-varying mean only
+m1 <- gamlss(y ~ pb(t_scaled), sigma.fo = ~ 1, family = NO(), data = dat, trace = FALSE)
+
+# M2: time-varying mean + time-varying variance
+m2 <- gamlss(y ~ pb(t_scaled), sigma.fo = ~ pb(t_scaled), family = NO(), data = dat, trace = FALSE)
+
+# M3: constant mean + time-varying variance 
+m3 <- gamlss(y ~ 1, sigma.fo = ~ pb(t_scaled), family = NO(), data = dat, trace = FALSE)
+
+aic_tbl <- data.frame(
+  model = c("M0: const mu,sigma", "M1: mu(t), const sigma", "M2: mu(t), sigma(t)", "M3: const mu, sigma(t)"),
+  AIC   = c(GAIC(m0, k = 2), GAIC(m1, k = 2), GAIC(m2, k = 2), GAIC(m3, k = 2))
+)
+print(aic_tbl)
+
+# ---- 3) ROLLING ONE-STEP-AHEAD EVALUATION ----
+crps_norm_manual <- function(y, mean, sd) {
+  if (sd <= 0) return(NA_real_)
+  z <- (y - mean)/sd
+  sd * (z*(2*pnorm(z)-1) + 2*dnorm(z) - 1/sqrt(pi))
+}
+
+k_start <- 200
+k_end   <- n - 1
+K <- k_end - k_start + 1
+
+results <- data.frame(
+  k = integer(),
+  model = character(),
+  log_score = numeric(),
+  crps = numeric(),
+  cover95 = logical(),
+  stringsAsFactors = FALSE
+)
+
+for (k in k_start:k_end) {
+  train <- dat[1:k, ]
+  test1 <- dat[k+1, , drop=FALSE]
+  
+  # Fit models on training data
+  m0_k <- try(gamlss(y ~ 1, sigma.fo = ~ 1, family = NO(), data = train, trace = FALSE), silent = TRUE)
+  m1_k <- try(gamlss(y ~ pb(t_scaled), sigma.fo = ~ 1, family = NO(), data = train, trace = FALSE), silent = TRUE)
+  m2_k <- try(gamlss(y ~ pb(t_scaled), sigma.fo = ~ pb(t_scaled), family = NO(), data = train, trace = FALSE), silent = TRUE)
+  m3_k <- try(gamlss(y ~ 1, sigma.fo = ~ pb(t_scaled), family = NO(), data = train, trace = FALSE), silent = TRUE)
+  
+  
+  fits <- list(M0 = m0_k, M1 = m1_k, M2 = m2_k, M3 = m3_k)
+  
+  for (mod in names(fits)) {
+    fit <- fits[[mod]]
+    if (inherits(fit, "try-error")) next
+    
+    pa <- suppressWarnings(predictAll(fit, newdata = test1, type = "response"))
+    mu_hat <- as.numeric(pa$mu); sd_hat <- as.numeric(pa$sigma)
+    y_obs  <- test1$y
+    
+    ls  <- dNO(y_obs, mu = mu_hat, sigma = sd_hat, log = TRUE)
+    cr  <- crps_norm_manual(y_obs, mu_hat, sd_hat)
+    qlo <- qNO(0.025, mu = mu_hat, sigma = sd_hat)
+    qhi <- qNO(0.975, mu = mu_hat, sigma = sd_hat)
+    cov <- (y_obs >= qlo) && (y_obs <= qhi)
+    
+    results <- rbind(results, data.frame(
+      k = k, model = mod, log_score = ls, crps = cr, cover95 = cov, stringsAsFactors = FALSE
+    ))
+  }
+}
+
+summary_tbl <- results %>%
+  group_by(model) %>%
+  summarise(
+    mean_log_score = mean(log_score, na.rm = TRUE),
+    mean_crps      = mean(crps, na.rm = TRUE),
+    cover95_rate   = mean(cover95, na.rm = TRUE),
+    .groups = "drop"
+  )
+print(summary_tbl)
+
+# WHAT DO THEY MEAN?
+## mean_log_score = Average log predictive density at the observed values. Closer to 0 (less negative) 
+### is better, means that the model put more probability mass on what actually happened. So here, M2 is 
+### closer to 0, therefore that model gives systematically higher likelihood to observed outcomes.
+## mean_crps = Continuous Ranked Probability Score, it measure the accuracy of the whole predictive distribution 
+### (mean + spread), and lower is better. Here, M2 is lower, hence its predictive distribution are sharper and 
+### better aligned with reality 
+## cover95_rate = its the coverage of 95% interval, looking at how often the realized value fell inside the 
+### 95% predictive interval. we want it to be ~ 0.95 (predictive intervals are well calibrated). Here, M1 and M3
+### are ~95%, means that they are well calibrated (the predictive intervals are the right 'width'). M0 and M2 are 
+### under-covering with ~93%. The intervals are slightly too tight (too confident). Makes sense for M0 has it ignore 
+### both mean and variance changes. M2 is interesting cause the smooth penalties in pb() can make it slightly under-dispersed 
+### in finite samples
+
+
+# ---- 4) VISUAL CHECK ----
+# True vs fitted mean (M2)
+mu_hat <- fitted(m2, "mu")
+ggplot(dat, aes(t)) +
+  geom_line(aes(y = mu_true), colour="black") +
+  geom_line(aes(y = mu_hat), colour="red") +
+  labs(title="Sim 2: true mean (black) vs fitted mu(t) (red)", y="mean")
+
+# True vs fitted sigma (M2)
+sig_hat <- fitted(m2, "sigma")
+ggplot(dat, aes(t)) +
+  geom_line(aes(y = sd_true), colour="black") +
+  geom_line(aes(y = sig_hat), colour="blue") +
+  labs(title="Sim 2: true sd (black) vs fitted sigma(t) (blue)", y="sd")
+
