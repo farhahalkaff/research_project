@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{cleveref}
+\crefname{figure}{Figure}{Figures}
+\crefname{table}{Table}{Tables}
+\usepackage[style=authoryear-comp]{biblatex}
+\addbibresource{ref.bib}
+\usepackage[margin=27mm]{geometry}
+\usepackage{xcolor}
+\usepackage[justification=centering]{caption}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{listings}
+\usepackage{verbatim} 
+
+\begin{document}
+
+\begin{table} [h]
+    \centering
+    \caption{Example of different simulations with different constant and time-variant parameters}
+    \begin{tabular}{c|cccc}
+          & Mean & Variance & Skewness & Kurtosis \\
+         \hline
+         sim 1 & constant & time-varying & - & - \\
+         sim 2 & time-varying & time-varying & - & - \\
+         sim 3 & time-varying & time-varying & constant & constant  \\
+         sim 4 & time-varying & constant & time-varying & constant \\
+         ... &  ... & ... & ... & ... \\
+         sim n &  time-varying & time-varying & time-varying & time-varying
+    \end{tabular}
+    \label{simtable}
+\end{table}
+
+\section*{Results}
+
+\subsection{Simulation 1}
+\textit{(constant mean + time-varying variance)} \\
+
+\noindent Fitted 2 models:
+
+\begin{enumerate}
+    \item M0 $\rightarrow$ constant variance 
+    \item M1 $\rightarrow$ sigma varies smoothly with time
+\end{enumerate}
+
+\verbatiminput{simulations_output.txt}
+
+\end{document}
